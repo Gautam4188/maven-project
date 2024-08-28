@@ -29,9 +29,9 @@
     </site>
   </distributionManagement>
 
-  <build>
+  <build>               
     <plugins>
-        <plugin>
+       <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version> <!-- Use the latest stable version -->
@@ -39,10 +39,7 @@
                 <source>11</source> <!-- Update to your desired Java version -->
                 <target>11</target> <!-- Update to your desired Java version -->
             </configuration>
-        </plugin>
-    </plugins>       
-           
-    <plugins>
+        </plugin>       
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
